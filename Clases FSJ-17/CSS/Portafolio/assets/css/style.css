@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +6,8 @@
 }
 body{
     text-align: center;
+    font-family: 'Lobster';
+    color: gray;
 }
 h1{
     font-family: 'Lobster';
@@ -49,9 +49,91 @@ main{
     width: 30%;
     margin: auto;
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lobster';
 }
 .skills-rows{
     width: 50%;
     margin: 100px auto;
+    position: relative;
+}
+.skills-rows h3{
+    text-align: left;
+    color: #0678A6;
+}
+.developer-img{
+    width: 175px;
+    height: 175px;
+    float: left;
+}
+.chillies-img{
+    width: 175px;
+    height: 175px;
+    float: right;
+}
+.skills-paragraph{
+    text-align: left;
+    position: relative;
+    padding-top: 25px;
+}
+.contact h3{
+    text-align: center;
+    color: #0678A6;
+}
+.contact p{
+    width: 60%;
+}
+.contact-button{
+    font-family: 'Lobster';
+    text-decoration: none;
+    background-color: #0678A6;
+    color: black;
+    font-weight: bold;  
+    border-radius: 5px;     
+    padding: 8px 25px;
+    margin-top: 30px;      
+    display: inline-block; 
+}
+.contact-button:hover{
+    background-color: #28B1E0;
+    color: #063069;
+}
+footer{
+    background-color: #28b1e0;
+}
+.footer_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 10px;
+    gap: 20px;
+    color: darkslategray;
+    text-align: right;
+}
+.margen{
+    margin: 30px 0;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;  
+}
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #063069;
+    border-radius: 50%;
+    color: #0678A6;
+    margin: 5px;
+}
+.footer_container .info .icons{
+    width: 60%;
+}
+.footer_container .info .icons a{
+    width: 50px;
+    height: 50px;
+}
+.footer_container .info .icons a:hover{
+    background-color: transparent;
 }
