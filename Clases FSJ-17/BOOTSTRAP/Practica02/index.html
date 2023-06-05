@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- contenedor de los iconos 
+        color de fondo: bg-color-->
+        <div class="d-flex justify-content-center bg-primary">
+            <a href="#" class="text-white mx-4"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white mx-4"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white mx-4"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white mx-4"><i class="bi bi-twitch"></i></a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Willian Hdz</a>
+                <!-- menu hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse pb-2 pb-lg-0" id="navbarSupportedContent">
+                    <!-- Especificando los tamaños de pantallas -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Celulares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Audifonos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Computadoras</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Iniciar Secion</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="formulario.html" class="btn btn-outline-primary rounded-pill btn-sm">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container py-5">
+        <section class="row py-5 border-bottom d-flex align-items-center">
+            <section class="col-md-7">
+                <h2>Nosotros <span class="text-muted fs-1">Trabajamos por ti</span> </h2>
+                <p class="lead" style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur amet vero, dolore sapiente adipisci impedit molestias quasi inventore id repellendus maxime, dignissimos dolorem maiores corporis. Tempore eius esse adipisci!</p>
+            </section>
+            <section class="col-md-5">
+                <img class="w-100 rounded" src="assets/img/image4.jpg" alt="reunion de trabajo">
+            </section>
+        </section>
+        <section class="row py-5 d-flex align-items-center">
+            <section class="col-md-7 order-md-2">
+                <h2>Servicios <span class="text-muted fs-1">De primera calidad</span> </h2>
+                <p class="lead" style="text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur amet vero, dolore sapiente adipisci impedit molestias quasi inventore id repellendus maxime, dignissimos dolorem maiores corporis. Tempore eius esse adipisci!</p>
+            </section>
+            <section class="col-md-5 order-md-1">
+                <img class="w-100 rounded" src="assets/img/image5.jpg" alt="reunion de trabajo">
+            </section>
+        </section>
+        <!-- apartado de productos -->
+        <h2 class="text-center py-4 fs-1 border-bottom mb-4">Productos</h2>
+        <div class="row">
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto1.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Detalles
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto2.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">iMac</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto3.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">Android</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto4.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple Watch</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto5.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto6.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">iPad</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto7.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">Galaxy S21</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assets/img/producto8.jpg" class="card-img-top box-img" alt="iphone">
+                    <div class="card-body">
+                        <h5 class="card-title">Airpods</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Apartado de testimonios -->
+    <div class="container-fluid bg-dark text-white px-0 py-3">
+        <section class="container">
+            <h2 class="text-center display-3">Palabras de <strong>nuestros clientes...</strong></h2>
+            <p class="text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quod provident nam possimus soluta. Dolor officiis voluptas nemo fugit excepturi neque, quaerat est itaque asperiores ipsa quas sit odit optio!</p>
+        </section>
+        <!-- Apartado del carousel -->
+        <section>
+            <div id="carouselTesti" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselTesti" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselTesti" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselTesti" data-bs-slide-to="2"></button>
+                </div>
+                <!-- Sliders -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="m-auto img-carousel">
+                            <img src="assets/img/profile1.jpg" alt="profile1" class="w-100 h-100 rounded-circle ">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">...</h3>
+                            <h4 class="fw-normal text-primary">..</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad quam? Eveniet magni accusantium omnis quis non ducimus at voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="m-auto img-carousel">
+                            <img src="assets/img/profile2.jpg" alt="profile2" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">...</h3>
+                            <h4 class="fw-normal text-primary">...</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad quam? Eveniet magni accusantium omnis quis non ducimus at voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="m-auto img-carousel">
+                            <img src="assets/img/profile3.jpg" alt="profile3" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">...</h3>
+                            <h4 class="fw-normal text-primary">...</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad quam? Eveniet magni accusantium omnis quis non ducimus at voluptas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Botones -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTesti" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTesti" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+    <!-- Apartado del footer -->
+    <footer class="bg-black text-white text-center p-2">
+        <h3>Todos los derechos reservados, Willian Hernández</h3>
+    </footer>
+    <!-- Aparatado del Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">iPhone</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center align-items-center">
+                    <div class="mx-2">
+                        <img src="assets/img/producto1.jpg" alt="iPhone" class="w-100">
+                    </div>
+                    <div class="mx-2 text-primary">
+                        <p class="parrafo-modal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, totam obcaecati. Excepturi dicta eligendi, ipsa nostrum quia architecto? Voluptatem beatae doloremque dolore eius possimus debitis dolorem odio et accusamus laborum!</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>

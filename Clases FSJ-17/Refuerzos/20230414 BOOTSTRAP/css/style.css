@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #f16774;
+    height: 250px;
+    overflow: hidden;
+}
+.nav-bgc{
+    background-color: #f16774;
+}
+.pfw{
+    font-weight: 600;
+}
+.pfs-1{
+    font-size: 3rem;
+}
+#img-dog{
+    transform: rotate(25deg);
+    margin-top: 20px;
+}
+.pic{
+    color: #fb9481;
+}
+#seccion-2{
+    height: auto;
+}
+#seccion-3{
+    background-color: #f16774;
+}
+.cid{
+    width: 100px;
+}
+.cil{
+    width: 75px;
+}
+.mpc{
+    width: 55%;
+    margin: 20px;
+}
+#seccion-5{
+    background-color: #f16774;
+    height: 250px;
+    padding: 5% 20%;
+}
+@media (max-width:560px){
+    header{
+        height: 300px;
+    }
+    .mpc{
+        width: 100%;
+        padding:auto;
+    }
+}

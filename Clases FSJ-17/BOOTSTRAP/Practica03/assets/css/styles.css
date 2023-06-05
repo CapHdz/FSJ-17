@@ -1,0 +1,34 @@
+#banner{
+    height: 350px;
+    background-image: url(../img/shutterstock_116403520.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -100px;
+}
+#logo{
+    width: 19.5%;
+}
+.mycard{
+    border: solid 1px #19ada6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prgh{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+footer{
+    background-color: #424242;
+}
+.footer-img{
+    width: 12%;
+}
+@media (max-widht:580px){
+    #banner{
+        height: 250px;
+        background-position: center -50px;
+    }
+}
